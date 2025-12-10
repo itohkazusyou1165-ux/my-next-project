@@ -1,4 +1,4 @@
-.top {
+.top{
   position: relative;
   display: flex;
   align-items: center;
@@ -9,7 +9,7 @@
   padding: 200px 0;
 }
 
-.title {
+.title{
   /* color: var(--color-text-error); */
   font-size: 3rem;
   font-weight: bold;
@@ -17,13 +17,13 @@
   margin-block-end: 1rem;
 }
 
-.description {
+.description{
   text-align: center;
 }
 
-.bgimg {
+.bgimg{
   position: absolute;
-  top: 0;
+  top:0;
   right: 0;
   width: 100%;
   height: 600px;
@@ -34,7 +34,8 @@
   justify-content: center;
   z-index: -1;
 }
-.news {
+
+.news{
   position: relative;
   background-color: #fff;
   width: 840px;
@@ -42,45 +43,49 @@
   padding: 24px 40px;
   border-radius: var(--border-radius);
 }
-.newsTitle {
+
+.newsTitle{
   font-size: 1.5rem;
 }
 
-.newsLink {
+.newsLink{
   position: absolute;
   right: -40px;
   bottom: -40px;
 }
 
-@media (max-width: 1000px) {
-  .news {
-    width: calc(100%-160px);
+@media (max-width:1000px){
+  .news{
+    width: calc(100% - 160px);
   }
 }
 
-@media (max-width: 640px) {
-  .top {
+@media (max-width:640px){
+  .top{
     padding: 120px 16px;
   }
-  .title {
+
+  .title{
     font-size: 2rem;
     text-align: left;
   }
 
-  .description {
+  .description{
     /* text-align: center; */
     font-size: 0.9rem;
     text-align: left;
   }
-  .bgimg {
+
+  .bgimg{
     width: auto;
   }
-  .news {
-    width: calc(100% -32px);
+
+  .news{
+    width: calc(100% - 32px);
     padding: 16px 24px;
   }
 
-  .newsLink {
+  .newsLink{
     position: relative;
     right: auto;
     bottom: auto;
