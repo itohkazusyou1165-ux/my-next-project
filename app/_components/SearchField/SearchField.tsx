@@ -3,7 +3,7 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import styles from "./SearchField.module.css";
 import Image from "next/image";
-import { Html } from "next/document";
+
 import { Suspense } from "react";
 
 function SearchFieldComponent() {
